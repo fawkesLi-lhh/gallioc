@@ -13,6 +13,7 @@ mod voxel;
 
 fn main() {
     let mut app = App::default();
+    
     app.add_plugins(DefaultPlugins)
         .add_plugins(voxel::VoxelWorldPlugin)
         .add_plugins(debug::DebugUIPlugins)
